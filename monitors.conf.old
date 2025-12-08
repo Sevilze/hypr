@@ -2,3 +2,6 @@
 # nwg-displays is a graphical tool for managing monitors. 
 # - Installation for Arch Linux: sudo pacman -S nwg-displays
 # - Repo: https://github.com/nwg-piotr/nwg-displays
+
+monitor=eDP-2,1920x1080@144.0,0x0,1.0,bitdepth,10
+monitor=DP-2,3840x2160@60.0,1920x0,1.67,bitdepth,10
