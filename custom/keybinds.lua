@@ -14,7 +14,7 @@ hl.bind("ALT+mouse:272", hl.dsp.focus({workspace = "m-1"}))
 hl.bind("ALT+mouse:273", hl.dsp.focus({workspace = "m+1"}))
 
 -- Forcefully zap a window
-hl.bind("SUPER+SHIFT+Q", hl.dsp.exec_cmd("hyprctl dispatch closewindow"), {description = "Forcefully zap a window"})
+hl.bind("SUPER+SHIFT+Q", hl.dsp.exec_cmd("hyprctl kill"), {description = "Forcefully zap a window"})
 
 -- Send and move to workspace (1, 2, 3, ...)
 for i = 1, 10 do

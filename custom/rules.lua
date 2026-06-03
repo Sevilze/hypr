@@ -17,10 +17,6 @@ hl.window_rule({match = {class = "^(zen-alpha|zen)$"}, tag = "+browser"})
 --## Notification tags
 hl.window_rule({match = {class = "^(swaync-control-center|swaync-notification-window|swaync-client|class)$"}, tag = "+notif"})
 
---## KooL Settings tags
-hl.window_rule({match = {title = "^(KooL Hyprland Settings)$"}, tag = "+KooL_Settings"})
-hl.window_rule({match = {class = "^(nwg-displays|nwg-look)$"}, tag = "+KooL-Settings"})
-
 --## Terminal tags
 hl.window_rule({match = {class = "^(Alacritty|kitty|kitty-dropterm)$"}, tag = "+terminal"})
 hl.window_rule({match = {class = "^(Alacritty|kitty|kitty-dropterm)$"}, no_blur = true})

@@ -1,16 +1,11 @@
 -- Custom general configuration overrides
 -- https://wiki.hyprland.org/Configuring/Variables/
 
--- Device-specific settings
-hl.device({
-    name = "logitech-usb-receiver",
-    natural_scroll = true,
-})
-
 -- Input overrides
 hl.config({
     input = {
         force_no_accel = true,
+        natural_scroll = true,
     },
     decoration = {
         blur = {
